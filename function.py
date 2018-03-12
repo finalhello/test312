@@ -51,3 +51,5 @@ def f1(a):
         return a[::-1,::-1,::-1].transpose(0,2,1)
 def f3(a):
     return 3*a
+def f2(a):
+    return 24*numpy.random.rand(1)*a
