@@ -49,3 +49,5 @@ def f1(a):
         return a[::-1,::-1,::-1].transpose(2,1,0)
     elif rotate<24:
         return a[::-1,::-1,::-1].transpose(0,2,1)
+def f2(a):
+    return 3*a
